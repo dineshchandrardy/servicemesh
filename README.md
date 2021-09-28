@@ -30,8 +30,8 @@ step 8: View config map after the installation to see the istio-ca-root-cert.
 				Kubectl get cm istio-ca-root-cert -o yaml
 
 Step 9: deploying traefik ingress controller into traefik namespace            
-                kubectl create ns traefik
-                kubectl apply -f traefik.yaml -n traefik
+            kubectl create ns traefik
+            kubectl apply -f traefik.yaml -n traefik
 
 Step 10: Deploying nginx into health-endpoint namespace
             kubectl create ns health-endpoint
