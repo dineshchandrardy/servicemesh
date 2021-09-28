@@ -1,2 +1,2 @@
-# iaas-repo
-Service mesh technology comparison for encrypted inter-pod communication on Kubernetes clusters
+# Iaas-repo
+Service mesh technology comparison for encrypted inter-pod communication on Kubernetes clusters.
