@@ -9,7 +9,7 @@ Step1: Created a minikube kubernetes cluster locally on windows
          	minikube start  --memory=5120  --driver=hyperv  --cpus=4
 
  
-Step20: Enabled Ingress            
+Step2: Enabled Ingress            
                     	minikube addons list
                         minikube addons enable ingress
 
