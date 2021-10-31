@@ -5,10 +5,14 @@ Service mesh technology comparison for encrypted inter-pod communication on Kube
 
 ### minikube installation 
 
+Step0: Install minikube using windows packet manager
+ winget install minikube
+
 Step1: Created a minikube kubernetes cluster locally on windows
          	minikube start  --memory=5120  --driver=hyperv  --cpus=4
 
- 
+             
+
 Step2: Enabled Ingress            
                     	minikube addons list
                         minikube addons enable ingress
