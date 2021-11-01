@@ -46,8 +46,3 @@ step 11: Describing end-points for each instance
            kubectl get ep traefik -n traefik
 
 High level overview of deployments
-
-
-
-
-
